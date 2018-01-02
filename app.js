@@ -30,7 +30,6 @@ app.post('/stuff',(req,res)=>{
 
 
 console.log(req.body);
-//res.send('love you'+JSON.stringify(req.body.value));
 })
 
 app.get('/stuff',(req,res)=>
