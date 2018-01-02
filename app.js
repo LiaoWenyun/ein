@@ -30,7 +30,7 @@ app.get('/stuff',(req,res)=>
 })
 
 
-
+//server starts 
 app.listen(8080,()=>{
     console.log("app is listening on port 8080...") 
 });
