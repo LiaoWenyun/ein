@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <button ion-button (click)='getRequest()' icon-start large round color="dark">getRequest</button>
+  <p>{{value}}</p>
+  <ion-item>
+    <ion-label fixed>Value</ion-label>
+    <ion-input type= "text" value="" [(ngModel)]= "val" ></ion-input>
+  </ion-item>
+  <button ion-button (click)='postRequest()' icon-start large round color="primary">postRequest</button>
+  <p>{{value2}}</p>
+</ion-content>

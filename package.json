@@ -1,0 +1,18 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "uses ionic for front end and express for back end, mongo as db, make some simple http requests.",
+  "main": "app.js ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wenyun",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "mongoose": "^5.0.0-rc0"
+  }
+}
