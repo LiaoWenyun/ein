@@ -11,8 +11,18 @@
   <button ion-button (click)='getRequest()' icon-start large round color="dark">getRequest</button>
   <p>{{value}}</p>
   <ion-item>
-    <ion-label fixed>Value</ion-label>
-    <ion-input type= "text" value="" [(ngModel)]= "val" ></ion-input>
+    <ion-label fixed>Name</ion-label>
+    <ion-input type= "text" value="" [(ngModel)]= "name" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Description</ion-label>
+    <ion-input type= "text" value="" [(ngModel)]= "description" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Rate</ion-label>
+    <ion-input type= "text" value="" [(ngModel)]= "rate" ></ion-input>
   </ion-item>
   <button ion-button (click)='postRequest()' icon-start large round color="primary">postRequest</button>
   <p>{{value2}}</p>
