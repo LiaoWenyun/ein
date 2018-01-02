@@ -7,14 +7,18 @@ import { HomeProvider } from '../../providers/home/home';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  val='';
+  name='';
+  description='';
+  rate=0;
   value= '';
   value2='';
   constructor(public navCtrl: NavController, public homeProvider: HomeProvider) {
 
   }
   postRequest(){
-    let body={"value": this.val}
+    let body={"name": this.name,
+              "description":this.description,
+              "rate": this.rate}
     this.homeProvider.post(body).then(
       (data)=>{
         console.log(data);
